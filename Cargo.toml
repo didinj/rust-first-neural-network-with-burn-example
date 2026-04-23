@@ -1,0 +1,8 @@
+[package]
+name = "rust-burn-neural-network"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+burn = { version = "0.14", features = ["train", "ndarray"] }
+rand = "0.8"
